@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 15vh;
+    /* background-color: rgb(164, 163, 163); */
+    background-color: black;
+}
+
+.logo {
+    width: 35vh;
+}
+
+.nav_tamaño {
+    width: 100%;
+}
+
+nav a {
+    border: solid 1px rgb(233, 231, 238);
+    color: white !important;
+    margin: 0.5rem;
+}
+.navbar-light .navbar-toggler{
+    color:  white !important;
+}
+li a:hover {
+    background-color: rgb(211, 8, 106);
+    color: white !important;
+}
+.container_banner {
+    /* background-color: rgb(54, 52, 52); */
+    background-color: rgb(132, 130, 130);
+    height: 20%;
+    color: black;
+}
+
+.icono_derecho,
+.icono_izquierdo {
+    height: 2rem;
+    width: 2rem;
+    color: white;
+}
+
+main {
+    min-height: 75vh;
+    background-color: rgb(31, 31, 31);
+}
+
+.container_check_search {
+    padding: 3rem;
+}
+
+.txt_category_checkbox {
+    color: white;
+}
+
+/* 
+.container_search {
+    width: 20%;
+}  */
+.container_input_search{
+    width: 25%;
+}
+
+.search {
+    width: 19rem;
+}
+
+.btn_search {
+    border: solid 1px white;
+    background-color: white;
+}
+
+/* CARDS */
+.img_card {
+    width: auto;
+    height: 10rem;
+    object-fit: cover;
+}
+.card{
+    min-width: 15.625rem;
+}
+.card_body_txt {
+    height: 8rem;
+}
+.nombre_evento{
+    font-size: medium;
+}
+.fecha{
+    height: 2rem;
+    font-size: small;
+}
+.btn_card {
+    border: solid 1px black;
+    box-shadow: -3px -3px 4px 3px rgba(0, 0, 0, 0.297);
+    /* width: 7rem;
+    height: 2rem;   */
+}
+
+.btn_card:hover {
+    background-color: rgb(211, 8, 106);
+    color: white !important;
+}
+
+.txt_btn_card {
+    font-size: 0.9rem;
+}
+
+.card_details {
+    border: solid 1px rgb(132, 130, 130);
+    background-color: white;
+    width: 40rem;
+    padding: 2rem;
+}
+
+.img_card_details {
+    width: 18rem;
+    height: 18rem;
+    box-shadow: -1px -3px 6px 1px rgba(0, 0, 0, 0.297);
+    object-fit: cover;
+}
+
+.card_details_txt {
+    height: 18rem;
+}
+
+.txt_form {
+    color: white;
+}
+
+.contact_menssage {
+    height: 15%;
+}
+
+.menssage_txt {
+    height: 8rem;
+}
+
+.contact_form {
+    width: 40rem;
+    border: solid 0.1rem rgb(132, 130, 130);
+    padding: 1rem;
+}
+
+.btn_submit_form:hover {
+    background-color: rgb(211, 8, 106);
+    color: white;
+}
+
+table {
+   width: 90%;
+   background-color: rgb(31, 31, 31);
+   color: white;
+}
+
+table,
+th,
+td {
+    border: solid 1px rgb(132, 130, 130);
+
+   
+}
+th {
+    height: 3rem;
+    width: 40rem;
+    padding: 0.5rem;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+td {
+    color: white;
+    height: 2rem;
+    width: 40rem;
+    padding: 0.5rem;
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(132, 130, 130);
+}
+
+.footer_redes {
+    width: 25vh;
+    height: 4vh;
+
+}
+
+.logo_instagram {
+    width: 4vh;
+    height: 4vh;
+}
+
+.logo_facebook {
+    width: 4vh;
+    height: 4vh;
+}
+
+.logo_wapp {
+    width: 4vh;
+    height: 4vh;
+}
+
+.footer_txt {
+    font-size: 4vh;
+}
+
